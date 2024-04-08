@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 690px;
+    background: #eacda3;
+    background: url(imagenes/harina-de-maiz-sin-nixtamalizar-.jpg);
+    background:  url(imagenes/harina-de-maiz-sin-nixtamalizar-.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 30px;
+}
+section{
+    margin-bottom: 20px;
+}
+#encabezado {
+    display: flex;
+    background-color: #EBEBEB;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 85px;
+}
+
+.enc-vacio, .enc-enl{
+    width: 80px;
+    height: 15.79;
+}
+
+.enc-enl {
+    color: black;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#encabezado > h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#encabezado > a:hover{
+    text-decoration: underline;
+    background-color: #eacda3;
+}
+
+#cont-inicio {
+    height: 70vh;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#cont-inicio > h1 {
+    font-size: 55px;
+    font-weight: bold;
+    max-width: 850px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 75px;
+}
+
+#cont-inicio > p {
+    font-size: 24px;
+    max-width: 550px;
+    text-align: center;
+    margin-top: 60px;
+}
+p{
+    
+}
+#nuestros-servicios{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EBEBEB;
+    height: 690px;
+}
+#izquierda, #derecha{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.destello{
+    width: 90px;
+    height: auto;
+}
+
+#centro{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.centro-1{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.subtitulos{
+    font-size: 40px;
+}
+.contenido{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.figura-y-texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#centro > .centro-1 > .contenido > .figura-y-texto > p{
+    width: 450px;
+    font-size: 20px;
+}
+
+.form-bin{
+    width: 70px;
+    height: auto;
+}
+.centro-2 {
+    border-top-right-radius: 105px; /* Ajusta este valor según tu preferencia */
+}
+.centro-2, .imgg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    overflow: hidden;
+}
+.centro-2, .imgg, .imgg > img{
+    	height: 500px;
+}
+.imgg > img{
+    width: auto;
+}
+.porque-comprar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #EBEBEB;
+
+}
+.tira-corta{
+    transform: rotate(90deg);
+    width: 50px;
+    height: auto;
+margin-left: 50%;}
+
+  
+  .escencia {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+    text-align: center;
+  
+  }
+  
+  .forma-chica {
+    width: 80px; 
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .subtitilos {
+    font-size: 34px; 
+    max-width: 200px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-left: 10px;
+  }
+  .parrafo{
+    width: 250px;
+    margin-left: 10px;    
+  }
+  
+  .img-bol-masa > img {
+    width: auto; 
+    height: 300px; 
+    width: 300px;
+    height: 450px; 
+    overflow: hidden; 
+    border-top-right-radius: 200px; 
+    border-top-left-radius: 200px; 
+    margin-left: 70px;
+    margin-left: 100px;
+  }
+#productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 690px;
+    background-color: #EBEBEB;
+    padding: 20px;
+
+}
+  
+  .contenedor-arriba {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 48px;
+  }
+  
+  .contenedor-abajo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+  
+  .contenedor1, .contenedor2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 35%;
+    text-align: center;
+  }
+  
+  .contenedor1 h2, .contenedor2 h2 {
+    font-size: 18px;
+    max-width: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  
+  .contenedor1 img, .contenedor2 img {
+    transition: transform 0.3s;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .contenedor1 img:hover , .contenedor2 img:hover {
+    transform: scale(1.2);
+    
+  }
+
+  #contacto {
+    display: flex;
+    justify-content: center;
+    height: 690px;
+}
+
+#text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DBB4B4; /* Color rosa claro */
+    color: black;
+}
+.titulo-contacto {
+    text-align: center;
+    width: 400px;
+    font-size: 100px;
+    font-family: serif;
+    transform: rotate(-90deg);
+    color: #F0EBE8;
+    margin-right: 100px;
+
+   
+}
+.pcontactanos{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: #DDD3D0;
+}
+
+#contactanos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-right: 90px;
+    
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.fondo-icono{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 130px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius:  20px;
+    background-color: #F0EBE8;
+}
+.pocicion-icono{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contactanos .iconos img {
+    width: auto; /* Ajusta el tamaño de los iconos según sea necesario */
+    height: 40px;
+    object-fit: cover;
+}
+
+#contactanos .iconos button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: gray; /* Color del enlace */
+    text-decoration: none;
+    font-size: 24px;
+    width: 300px;
+    text-align: left;
+}
+
+#contactanos .iconos button:hover{
+    text-decoration: underline;
+} 
+  
+  
